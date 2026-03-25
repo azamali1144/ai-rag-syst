@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+.env
+zayan_db/
+qdrant_storage/
+*.pdf
