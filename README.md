@@ -1,6 +1,6 @@
-# ai-rag-syst# Zayan AI: Private Contract Analysis Assistant 📑🤖
+# RAG-Based Contract Intelligence System: Private Contract Analysis Assistant 📑🤖
 
-Zayan AI is a high-performance, privacy-focused RAG (Retrieval-Augmented Generation) system designed for legal contract analysis. It allows users to upload PDF contracts, index them into a vector database, and perform context-aware Q&A locally.
+This is a high-performance, privacy-focused RAG (Retrieval-Augmented Generation) system designed for legal contract analysis. It allows users to upload PDF contracts, index them into a vector database, and perform context-aware Q&A locally.
 
 ---
 
@@ -53,11 +53,3 @@ poetry install
 python main.py
 ```
 Visit http://localhost:8000 in your browser.
-
-## 📦 Project Structure
-├── app.py              # Main FastAPI application
-├── ingest.py           # PDF processing & vector indexing
-├── templates/          # HTML/Frontend files
-├── static/             # CSS & JS assets
-├── data/               # Local storage for uploaded contracts
-└── .gitignore          # Python & Environment exclusions
